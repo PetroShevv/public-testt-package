@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/PetroShevv/public-testt-package/issues"
   },
-  "homepage": "https://github.com/PetroShevv/public-testt-package#readme"
+  "homepage": "https://github.com/PetroShevv/public-testt-package#readme",
+  "dependencies": {
+    "jimp": "^0.16.1"
+  }
 }
