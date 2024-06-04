@@ -7,7 +7,6 @@ const add = ( a, b ) => {
 }
 
 export {
+    add,
     multiple
 }
-
-export default add;
