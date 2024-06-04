@@ -9,9 +9,14 @@ const add = ( a, b ) => {
 }
 
 const getNaturalHeight = async (url) => {
-    const newFileJimp = await Jimp.read(url)
-    const { bitmap: { width, height } } = newFileJimp;
-    return { height, width };
+    try {
+        const newFileJimp = await Jimp.read(url)
+        const { bitmap: { width, height } } = newFileJimp;
+        return { height, width };
+    } catch (e) {
+        console.log('ERROR getNaturalHeight: ', e)
+        throw Error(e)
+    }
 }
 
 export {
