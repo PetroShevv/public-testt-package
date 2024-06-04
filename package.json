@@ -1,0 +1,19 @@
+{
+  "name": "public-testt-package",
+  "version": "1.0.0",
+  "description": "Package for test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetroShevv/public-testt-package.git"
+  },
+  "author": "Petro Shevv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PetroShevv/public-testt-package/issues"
+  },
+  "homepage": "https://github.com/PetroShevv/public-testt-package#readme"
+}
